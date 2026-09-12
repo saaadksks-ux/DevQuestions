@@ -1,6 +1,9 @@
 <Solution>
   <Folder Name="/src/">
+<<<<<<< HEAD
     <Project Path="src/DevQuestion.Domain/DevQuestion.Domain.csproj" />
+=======
+>>>>>>> 80a4c43 (creare webapi with controllers)
     <Project Path="src/DevQuestion.Web/DevQuestion.Web.csproj" />
   </Folder>
 </Solution>
