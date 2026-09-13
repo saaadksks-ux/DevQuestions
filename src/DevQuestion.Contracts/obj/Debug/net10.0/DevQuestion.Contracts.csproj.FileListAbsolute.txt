@@ -1,0 +1,12 @@
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/bin/Debug/net10.0/DevQuestion.Contracts.deps.json
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/bin/Debug/net10.0/DevQuestion.Contracts.dll
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/bin/Debug/net10.0/DevQuestion.Contracts.pdb
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.AssemblyInfoInputs.cache
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.AssemblyInfo.cs
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.csproj.CoreCompileInputs.cache
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.sourcelink.json
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.dll
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/refint/DevQuestion.Contracts.dll
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/DevQuestion.Contracts.pdb
+/home/mia/ASP/DevQuestions/src/DevQuestion.Contracts/obj/Debug/net10.0/ref/DevQuestion.Contracts.dll
