@@ -1,16 +1,16 @@
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddOpenApi();
+builder.Services.AddControllers();//controller
+builder.Services.AddOpenApi();//openApi
 
 WebApplication app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
-    app.UseSwaggerUI(option => option.SwaggerEndpoint("/openapi/v1.json", "DevQuestions"));
+    app.MapOpenApi();//OpenApi
+    app.UseSwaggerUI(option => option.SwaggerEndpoint("/openapi/v1.json", "DevQuestions"));//swagger
 }
 
-app.MapControllers();
+app.MapControllers();//controller
 
 app.Run();
