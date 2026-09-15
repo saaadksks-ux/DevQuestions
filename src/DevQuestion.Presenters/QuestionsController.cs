@@ -16,6 +16,7 @@ public class QuestionsController : ControllerBase
     {
         return Ok("Question create");
     }
+
     [HttpGet]
     public async Task<IActionResult> Get(
         [FromQuery] GetQueastionsDto getQuestionsDto,
