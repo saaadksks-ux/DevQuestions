@@ -1,7 +1,5 @@
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();//controller
-builder.Services.AddOpenApi();//openApi
 
 WebApplication app = builder.Build();
 
