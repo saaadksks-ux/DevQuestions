@@ -1,6 +1,6 @@
 ﻿using DevQuestion.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
+using DevQuestion.Application.Questions;
 
 namespace DevQuestion.Presenters;
 
@@ -9,6 +9,11 @@ namespace DevQuestion.Presenters;
 
 public class QuestionsController : ControllerBase
 {
+    private readonly IQuestionService _questionService;
+    public QuestionsController(IQuestionService questionsService)
+    {
+        _questionService = questionsService;
+    }
     //     {
     //   "title": "string",
     //   "bode": "string",
@@ -22,7 +27,8 @@ public class QuestionsController : ControllerBase
         [FromBody] CreateQueastionsDto createQueastionsDto,
         CancellationToken cancellationToken)
     {
-        return Ok("Question create");
+        var questionId = await _questionService.CreateI(createQueastionsDto, cancellationToken);
+        return Ok(questionId);
     }
 
     //GET /questions?tag_id=1&page=1&limit=10&title="test"
@@ -98,3 +104,6 @@ public class QuestionsController : ControllerBase
 
 }
 
+public interface IQuestionsService
+{
+}
